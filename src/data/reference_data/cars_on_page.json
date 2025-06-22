@@ -1,0 +1,335 @@
+{
+    "@type":"Product",
+    "name":"Продажа автомобилей",
+    "description":"Продажа автомобилей",
+    "offers": {
+        "@type":"AggregateOffer",
+        "lowPrice":"11000",
+        "highPrice": "85000",
+        "priceCurrency":"USD",
+        "offerCount":"34904",
+        "offers": [
+                                                                                                                                        {
+                    "@type":"Offer",
+                    "price":"16300",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/kia-k5-6855454d2d764519587823",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//1/e/0/1e0b8c9c2b1eed0cd3fbec5da7f8048e_640x480.jpg",
+                        "name":"Kia K5 III Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Пользователь"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"68600",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/lexus-rx-6856cbecd0392352598112",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//2/e/e/2ee8024d5eca7cbe65f0e2f046ce5c12_640x480.jpg",
+                        "name":"Lexus RX V Внедорожник 5 дв.",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Конфуций авто"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"65000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/bmw-x7-6834bbd7c47c3761599293",
+                    "priceValidUntil":"2025-06-27",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//c/c/1/cc1b9864ef1b0455e6478cd1e6871052_640x480.jpg",
+                        "name":"BMW X7 I (G07)",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"85000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/mercedes-benz-amg-gt-6855570f057e1528534697",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//d/3/8/d38dbdeaa8b2734a84b15dbaae0da40c_640x480.jpg",
+                        "name":"Mercedes-Benz AMG GT I Рестайлинг Лифтбек",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"KG"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"15500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/subaru-outback-6856a53e51ae6198981941",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//d/7/1/d7176674b8a0c7d5508228e9893a20b4_640x480.jpg",
+                        "name":"Subaru Outback V",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"NNN"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"47500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/genesis-g80-685546d14d311076842627",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//d/e/4/de4cc664e161122bae0b9ce3f6efb9d7_640x480.jpg",
+                        "name":"Genesis G80 II Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Avto"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"45500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/genesis-gv80-68553ecd728a6414795301",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//7/a/2/7a20b30cfa6795c362a5f6ca71008708_640x480.jpg",
+                        "name":"Genesis GV80 I Внедорожник 5 дв.",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Avto"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"15000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/nissan-rogue-sport-68552c567fd27909278962",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//5/c/5/5c57d1b661e23654d5daf93d382762f2_640x480.jpg",
+                        "name":"Nissan Rogue Sport I Рестайлинг Внедорожник 5 дв.",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Жанышбек"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"34000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/mercedes-benz-glc-coupe-amg-684fc235af0ed832864222",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//f/d/5/fd5bf7118dbeb5a9b994150a88b5ca07_640x480.jpg",
+                        "name":"Mercedes-Benz GLC Coupe AMG I (C253) Внедорожник 5 дв.",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Bucher"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"13500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/mercedes-benz-e-klass-68551430174ee108637661",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//5/f/2/5f2e4020d5283a3ed15467ddc47601f7_640x480.jpg",
+                        "name":"Mercedes-Benz E-Класс II (W210, S210) Рестайлинг Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"47000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/bmw-x5-67ca0f1d748f6214529330",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//8/6/2/86237e37fdf7bb17ceac5cad319aa4b1_640x480.jpg",
+                        "name":"BMW X5 IV (G05/G18)",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"24000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/exeed-vx-67b190e77d285183900002",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//5/f/e/5fec919e86e6d6fe3872773d235fc0c2_640x480.jpg",
+                        "name":"EXEED VX I Рестайлинг Внедорожник 5 дв.",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"35900",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/mercedes-benz-s-klass-685654ea2ae18453829499",
+                    "priceValidUntil":"2025-07-21",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//2/9/f/29f0ec11f50b3751dc2af73813e61327_640x480.jpg",
+                        "name":"Mercedes-Benz S-Класс VI (W222, C217) Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Flagman_Auto_Salon"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"26500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/lexus-es-6854f85170776285622568",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//7/5/0/750d42b048d4edce54cd0565def9316b_640x480.jpg",
+                        "name":"Lexus ES VI Рестайлинг",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Бек "
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"14000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/toyota-corolla-6852df3e02658945237878",
+                    "priceValidUntil":"2025-07-18",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//5/b/5/5b5417b704e68357185a6e60a3f942ad_640x480.jpg",
+                        "name":"Toyota Corolla XII (E210) Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"11000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/chevrolet-cobalt-6852d70b7d9ae489152457",
+                    "priceValidUntil":"2025-07-18",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//2/8/e/28e36cea4d157fb26e566007d3c922ef_640x480.jpg",
+                        "name":"Chevrolet Cobalt II Рестайлинг",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"43500",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/lexus-lx-683e897caf3b9027864053",
+                    "priceValidUntil":"2025-07-03",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//1/0/3/103db64dab219b4a51de23b33a07d6aa_640x480.jpg",
+                        "name":"Lexus LX III Рестайлинг",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"ислам"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"13000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/bmw-5-serii-68546d2890b91264700614",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//1/9/d/19d6078d6c270e8917ca722a573b891e_640x480.jpg",
+                        "name":"BMW 5 серии IV (E39) Рестайлинг Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Частное лицо"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"49000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/mercedes-benz-s-klass-6843b333af52e641938064",
+                    "priceValidUntil":"2025-07-08",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//6/4/3/64363027333ade9ae3bedf6ef8a3f85b_640x480.jpg",
+                        "name":"Mercedes-Benz S-Класс VI (W222, C217) Рестайлинг Седан",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"владелец"
+                        }
+                    }
+                },                                                                                                                                                {
+                    "@type":"Offer",
+                    "price":"85000",
+                    "priceCurrency":"USD",
+                    "availability":"https://schema.org/InStock",
+                    "url":"https://m.mashina.kg/details/lexus-lx-685593384313b610341169",
+                    "priceValidUntil":"2025-07-20",
+                    "image": {
+                        "@type":"ImageObject",
+                        "contentUrl":"https://im.mashina.kg/tachka/images//5/1/f/51f4afbba6467fb357a54f996e914ca3_640x480.jpg",
+                        "name":"Lexus LX III Рестайлинг 2",
+                        "creator": {
+                            "@type":"Person",
+                            "name":"Нурбек"
+                        }
+                    }
+                }                                    ]
+    },
+    "@context":"https://schema.org/"
+}
