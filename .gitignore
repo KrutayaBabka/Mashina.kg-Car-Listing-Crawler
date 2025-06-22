@@ -51,3 +51,5 @@ Desktop.ini
 
 # macOS специфические файлы
 .DS_Store
+
+*json
