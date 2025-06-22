@@ -1,21 +1,25 @@
 ````markdown
 # 🚗 Mashina.kg Car Listing Crawler
 
-A fast and modular asynchronous crawler that collects detailed car listings from [m.mashina.kg](https://m.mashina.kg), extracts structured vehicle data, and saves it as JSON for further analysis or integration.
+A fast, **asynchronous** crawler that collects detailed car listings from  
+[m.mashina.kg](https://m.mashina.kg), extracts structured vehicle data, and saves the
+results as JSON for further analysis or integration.
 
 **Author:** Danil  
 **Created:** 2025-06-22  
-**Python version:** 3.8+
+**Python version:** 3.8 +
 
 ---
 
 ## 📌 Features
 
-- ✅ Collects all paginated car listing links from Mashina.kg  
-- ✅ Parses individual car detail pages asynchronously  
-- ✅ Extracts brand, model, year, mileage, prices, configuration, seller info, VIN, etc.  
-- ✅ Aggregates results and saves to `full_results.json`  
-- ✅ Modular extractor system: easy to test, maintain, extend
+| Feature | Status |
+|---------|--------|
+|Collect links from **all** paginated search pages|✅|
+|Parse each car-detail page **concurrently**|✅|
+|Extract brand, model, year, mileage, prices, configuration, seller info, VIN …|✅|
+|Save aggregated data to `full_results.json`|✅|
+|Modular extractor system — easy to test & extend|✅|
 
 ---
 
@@ -24,10 +28,12 @@ A fast and modular asynchronous crawler that collects detailed car listings from
 ```bash
 git clone https://github.com/your-username/mashina-kg-crawler.git
 cd mashina-kg-crawler
+
 python -m venv venv
-venv\Scripts\activate        # On Windows
-# OR
-source venv/bin/activate     # On Linux/Mac
+# Windows
+venv\Scripts\activate
+# Linux / macOS
+# source venv/bin/activate
 
 pip install -r requirements.txt
 ````
@@ -36,18 +42,14 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-Run the crawler:
-
 ```bash
 python src/main.py
 ```
 
-Output:
+**Output**
 
-* Scraped data will be saved to:
-  `full_results.json`
-* Logs will be written to:
-  `app.log`
+* Parsed listings → `full_results.json`
+* Logs      → `app.log`
 
 ---
 
@@ -56,18 +58,18 @@ Output:
 ```
 src/
 │
-├── main.py                    # Entry point for the crawler
-├── config.py                  # Global configuration and logging setup
+├── main.py                    # Entry point
+├── config.py                  # Global constants & logging
 │
 ├── services/
-│   └── crawl_service.py       # Orchestrates crawling and data saving
+│   └── crawl_service.py       # Orchestrates crawling & data saving
 │
 ├── utils/
-│   ├── __init__.py            # Re-exports key functions
-│   ├── fetch.py               # HTML fetcher using requests
-│   ├── pagination.py          # Total pages & page URL builder
-│   ├── parse_listings.py      # Parses overview listing cards
-│   └── parse_details/         # All individual field extractors
+│   ├── __init__.py            # Re-exports key helpers
+│   ├── fetch.py               # Synchronous HTML fetcher
+│   ├── pagination.py          # Page-count & URL builder
+│   ├── parse_listings.py      # Extracts links from listing cards
+│   └── parse_details/         # Fine-grained extractors
 │       ├── __init__.py
 │       ├── average_price.py
 │       ├── breadcrumbs.py
@@ -82,58 +84,62 @@ src/
 │       └── vin.py
 │
 └── data/
-    └── reference_data/        # Optional: example raw HTML & expected JSON output
+    └── reference_data/        # Sample HTML pages & expected JSON output
+                               # Handy for tests / debugging
 ```
 
 ---
 
 ## 🧪 Reference Data (Optional)
 
-You can find sample HTML and JSON output in:
+Directory `data/reference_data/` contains **paired** samples:
 
-```
-data/reference_data/
-```
+| File     | Purpose                                   |
+| -------- | ----------------------------------------- |
+| `*.html` | Raw HTML saved from real Mashina.kg pages |
+| `*.json` | Expected structured output for that HTML  |
 
-These files are useful for:
+Use them to ⬇️
 
-* Debugging changes to extractors
-* Validating output format
-* Unit tests or future dataset development
+* Validate individual extractors without hitting the live site
+* Write unit-tests / regression tests (fixtures)
+* Debug new extraction logic quickly
 
 ---
 
 ## 🧩 Dependencies
 
+Core libraries (see `requirements.txt` for exact versions):
+
 * `requests`
 * `aiohttp`
 * `tqdm`
 * `beautifulsoup4`
-
-Install all from:
-
-```
-requirements.txt
-```
+* `urllib3` (dependency of requests)
+* `certifi` (dependency of requests)
 
 ---
 
 ## ✅ Logging
 
-* Log file: `app.log`
-* Format: `[YYYY-MM-DD HH:MM:SS] LEVEL: message`
-* Configured globally via `logging` in `config.py`
+| File      | Details                                          |
+| --------- | ------------------------------------------------ |
+| `app.log` | All crawl events, warnings, errors (append mode) |
+| Format    | `[YYYY-MM-DD HH:MM:SS] LEVEL: message`           |
+| Config    | Defined once in **`src/config.py`**              |
 
 ---
 
 ## 📄 License
 
-This project is licensed for educational and research purposes. Please respect the terms of use of the mashina.kg website.
+Licensed for **educational and research** purposes.
+Respect the terms of service of mashina.kg and scrape responsibly.
 
 ---
 
 ## 🙌 Contributing
 
-Pull requests, bug reports, and suggestions are welcome!
+*Found a bug?* *Have an idea?* — PRs and issues are welcome!
+Please follow conventional commit messages and keep functions type-annotated.
 
 ---

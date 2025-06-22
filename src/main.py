@@ -15,7 +15,7 @@ Usage:
 
 Dependencies:
     - Python 3.8+
-    - aiohttp, requests, BeautifulSoup4, tqdm, etc.
+    - requests, BeautifulSoup4, tqdm, etc.
 
 Project Structure:
     - services/crawl_service.py   : core crawling and parsing logic
