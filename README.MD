@@ -13,13 +13,13 @@ results as JSON for further analysis or integration.
 
 ## 📌 Features
 
-| Feature | Status |
-|---------|--------|
-|Collect links from **all** paginated search pages|✅|
-|Parse each car-detail page **concurrently**|✅|
-|Extract brand, model, year, mileage, prices, configuration, seller info, VIN …|✅|
-|Save aggregated data to `full_results.json`|✅|
-|Modular extractor system — easy to test & extend|✅|
+| Feature                                                                      | Status |
+|------------------------------------------------------------------------------|--------|
+|Collect links from **all** paginated search pages                             |   ✅   |
+|Parse each car-detail page **concurrently**                                   |   ✅   |
+|Extract brand, model, year, mileage, prices, configuration, seller info, VIN …|   ✅   |
+|Save aggregated data to `full_results.json`                                   |   ✅   |
+|Modular extractor system — easy to test & extend                              |   ✅   |
 
 ---
 
@@ -112,7 +112,6 @@ Use them to ⬇️
 Core libraries (see `requirements.txt` for exact versions):
 
 * `requests`
-* `aiohttp`
 * `tqdm`
 * `beautifulsoup4`
 * `urllib3` (dependency of requests)
