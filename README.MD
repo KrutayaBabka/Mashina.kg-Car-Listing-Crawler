@@ -26,8 +26,8 @@ results as JSON for further analysis or integration.
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/your-username/mashina-kg-crawler.git
-cd mashina-kg-crawler
+git clone https://github.com/KrutayaBabka/Mashina.kg-Car-Listing-Crawler.git
+cd Mashina.kg-Car-Listing-Crawler
 
 python -m venv venv
 # Windows
