@@ -96,7 +96,6 @@ Directory `data/reference_data/` contains **paired** samples:
 
 | File     | Purpose                                   |
 | -------- | ----------------------------------------- |
-| `*.html` | Raw HTML saved from real Mashina.kg pages |
 | `*.json` | Expected structured output for that HTML  |
 
 Use them to ⬇️
